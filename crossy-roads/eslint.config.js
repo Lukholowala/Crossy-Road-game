@@ -33,7 +33,9 @@ export default [
         'warn',
         { allowConstantExport: true },
       ],
-      rect
+      "react/prop-types": "off",
+      "react/no-unknown-property":"off",
+      "no-used-vars": "warn",
     },
   },
 ]
